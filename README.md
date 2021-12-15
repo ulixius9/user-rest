@@ -23,9 +23,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`GET /users/`
+`GET /api/users/`
 
-    GET http://localhost:8089/users/
+    GET http://localhost:8089/api/users/
 
 ### Response
 
@@ -45,9 +45,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`GET /user/{id}`
+`GET /api/user/{id}`
 
-    GET http://localhost:8089/user/1/
+    GET http://localhost:8089/api/user/1/
 
 ### Response
 
@@ -65,9 +65,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`POST /user/`
+`POST /api/user/`
 
-    POST http://localhost:8089/user/
+    POST http://localhost:8089/api/user/
     Content-Type: application/json
     Request body:
       {
@@ -94,9 +94,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`PUT /user/{id}`
+`PUT /api/user/{id}`
 
-    PUT http://localhost:8089/user/1
+    PUT http://localhost:8089/api/user/1
     Content-Type: application/json
     Request body:
       {
@@ -124,9 +124,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`DELETE /user/{id}`
+`DELETE /api/user/{id}`
 
-    DELETE http://localhost:8089/user/1/
+    DELETE http://localhost:8089/api/user/1/
 
 ### Response
 
@@ -137,9 +137,9 @@ The REST API of this app is described below.
 
 ### Request
 
-`DELETE /users`
+`DELETE /api/users`
 
-    DELETE http://localhost:8089/users
+    DELETE http://localhost:8089/api/users
 
 ### Response
 
