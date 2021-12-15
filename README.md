@@ -12,7 +12,7 @@ This is a demo application build using Spring-Boot which perfroms CURD operation
 | City       | String    |
 | Age        | Int       |
 | Email      | String    |
-| Mobile     | Int       |
+| Mobile     | Long      |
 
 
 # REST API
